@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: deadpool
+pool: LAB
 
 steps:
 - task: Maven@4
