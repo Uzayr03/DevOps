@@ -6,9 +6,7 @@
 trigger:
 - main
 
-pool: LAB
-
-steps:
+pool: Practice
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
